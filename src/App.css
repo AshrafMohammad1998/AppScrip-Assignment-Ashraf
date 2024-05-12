@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.main-container{
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.names-of-headers{
+  display: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.names-header-mobile{
   display: flex;
-  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.4px;
+  text-align: left;
+
+}
+.header-hr{
+  display: none;
+}
+
+.names-header-home-mobile{
+  color: #BFC8CD;
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+}
+.head-content{
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.discover-text{
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.lorem-text{
+  font-size: 16px;
+  line-height: 2.0;
+}
+
+.items-details{
+  display: none;
+}
+.items-details-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items-numbers{
+  display: flex;
+  align-items: center;
+}
+.count-numbers{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.filter-button{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Adobe Caslon Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #888792;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.recomenden-button{
+  font-size: 18px;
+  font-weight: bold;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  border: 0px solid white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media screen and (min-width: 600px) {
+  .main-container{
+    padding-left: 60px;
+    padding-right: 60px;
   }
-  to {
-    transform: rotate(360deg);
+  .names-of-headers{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 20px;
+    width: Hug (636px)px;
+    height: Hug (24px)px;
+    top: 140px;
+    left: 402px;
+    gap: 64px;
+    opacity: 0px;
+  }
+  .names-header-mobile{
+    display: none;
+  }
+  .header-hr{
+    display: block;
+  }
+  .discover-text{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+    
+  }
+  .lorem-text{
+    font-size: 22px;
+    line-height: 2.0;
+  }
+  .head-content{
+    width: 65%;
+  }
+  .items-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .items-details-mobile{
+    display: none;
   }
 }

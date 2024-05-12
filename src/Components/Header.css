@@ -1,0 +1,94 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-hr-line{
+    width: 100%;
+    margin-left: -20px;
+}
+.nav-images{
+    width: 20.1px;
+    height: 20.1px;
+    top: 40.68px;
+    left: 44px;
+    padding: 0px 0.22px 0.19px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.logo-name{
+    width: 61px;
+    height: 24px;
+    top: 39px;
+    left: 157px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.2px;
+    letter-spacing: 1px;
+}
+.nav-search{
+    display: none;
+}
+.humberger-menu{
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 41px;
+    left: 16px;
+    padding: 3px 2px 4px 2px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 5px;
+}
+.nav-search-mobile{
+    width: Hug (84px)px;
+    height: Hug (20px)px;
+    top: 41px;
+    left: 275px;
+    gap: 12px;
+    opacity: 0px;
+}
+@media only screen and (min-width: 600px) {
+    .humberger-menu{
+        display: none;
+    }
+    .logo-name{
+        width: 107px;
+        height: 44px;
+        top: 36px;
+        left: 667px;
+        gap: 0px;
+        opacity: 0px;    
+        margin-left: 220px;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 43.57px;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+    .header-hr-line{
+        display: none;
+    }
+    .nav-images{
+        width: 35.61px;
+        height: 35.66px;
+        gap: 0px;
+        opacity: 0px;
+        background: #000000;
+    }
+    .nav-search{
+        display: block;
+        width: Hug (244px)px;
+        height: Hug (24px)px;
+        top: 46px;
+        left: 1100px;
+        gap: 24px;
+        opacity: 0px;
+        color: #000000;
+    }
+    .nav-search-mobile{
+        display: none;
+    }
+}

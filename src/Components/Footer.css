@@ -1,0 +1,112 @@
+.footer-main-container{
+    background-color: #000000; 
+    padding: 20px;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-subscibe-container{
+    width: 100%;
+}
+.footer-subscibe-contact-us{
+    width: 100%;
+}
+.footer-bottom-contact{
+    width: 100%;
+}
+
+.footer-head-names{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.footer-para-names{
+    gap: 0px;
+    opacity: 0px;
+}
+.subscribe-email-input{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    padding: 15px;
+    width: 60%;
+}
+.subscribe-button{
+    width: Fixed (184px)px;
+    height: Fixed (48px)px;
+    left: 400px;
+    gap: 0px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    opacity: 0.3px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: grey;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-about-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-about-details li {
+    margin-bottom: 15px; /* Adjust as needed */
+}
+.footer-hr-mobile{
+    display: block;
+    margin-top: 20px;
+}
+@media screen and (min-width: 600px){
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-main-container{
+        background-color: #000000; 
+        padding: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+        color: white;
+    }
+    .footer-subscibe-container{
+        width: 60%;
+    }
+    .footer-subscibe-contact-us{
+        width: 40%;
+    }
+    .footer-bottom-contact{
+        width: 30%;
+    }
+    .footer-hr-mobile{
+        display: none;
+    }
+    .subscribe-email-input{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        padding: 10px;
+        width: 40%;
+    }
+    .subscribe-button{
+        width: Fixed (184px)px;
+        height: Fixed (48px)px;
+        left: 400px;
+        gap: 0px;
+        border-radius: 5px 0px 0px 0px;
+        border: 1.14px 0px 0px 0px;
+        opacity: 0.3px;
+        padding: 10px;
+        margin-left: 20px;
+        background-color: transparent;
+        color: #ffffff;
+        width: 150px;
+    }
+}
