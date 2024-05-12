@@ -9,7 +9,7 @@ function App() {
   const [isFilterVisible, setIsFilterVisible] = useState(false);
   const [allProducts, setAllProducts] = useState([])
 
-  console.log(allProducts, "receive data")
+  // console.log(allProducts, "receive data")
   const toggleFilter = () => {
     setIsFilterVisible(!isFilterVisible);
   }
